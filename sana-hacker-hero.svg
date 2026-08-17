@@ -1,0 +1,104 @@
+<svg width="1100" height="480" viewBox="0 0 1100 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1100" y2="480">
+    <stop stop-color="#09070F"/>
+    <stop offset="1" stop-color="#12091A"/>
+  </linearGradient>
+  <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+    <stop stop-color="#FF4FD8" stop-opacity="0"/>
+    <stop offset=".5" stop-color="#FF4FD8" stop-opacity=".26"/>
+    <stop offset="1" stop-color="#FF4FD8" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <stop stop-color="#FF4FD8"/>
+    <stop offset="1" stop-color="#8B5CF6"/>
+  </linearGradient>
+  <filter id="glow">
+    <feGaussianBlur stdDeviation="3.2" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+    <path d="M28 0H0V28" fill="none" stroke="#FF4FD8" stroke-opacity=".04"/>
+  </pattern>
+  <clipPath id="codeClip"><rect x="45" y="92" width="620" height="300" rx="14"/></clipPath>
+  <style>
+    .mono{font-family:"JetBrains Mono","Fira Code","SFMono-Regular",Consolas,monospace}
+    .muted{fill:#A294B2;font-size:13px}
+    .label{fill:#FF4FD8;font-size:13px;letter-spacing:1.5px}
+    .value{fill:#FFF7FF;font-size:18px;font-weight:700}
+    .code{fill:#D9C7E8;font-size:14px}
+  </style>
+</defs>
+
+<rect width="1100" height="480" rx="24" fill="url(#bg)"/>
+<rect width="1100" height="480" rx="24" fill="url(#grid)"/>
+<rect x="1" y="1" width="1098" height="478" rx="23" stroke="url(#accent)" stroke-opacity=".28"/>
+
+<circle cx="30" cy="28" r="5.5" fill="#FF5F56"/>
+<circle cx="49" cy="28" r="5.5" fill="#FFBD2E"/>
+<circle cx="68" cy="28" r="5.5" fill="#27C93F"/>
+<text x="96" y="33" class="mono muted">~/sana/profile/init.sh</text>
+<text x="922" y="33" class="mono label">DEV SESSION // ACTIVE</text>
+
+<rect x="32" y="66" width="650" height="366" rx="18" fill="#09070F" fill-opacity=".8" stroke="#FF4FD8" stroke-opacity=".12"/>
+
+<text x="52" y="101" class="mono" fill="#FF4FD8" font-size="15" font-weight="700">&gt; INITIALIZING FULL-STACK PROFILE...</text>
+<text x="52" y="126" class="mono muted">profile.scan --stack=laravel,node,react,next</text>
+
+<g clip-path="url(#codeClip)">
+  <g>
+    <text x="52" y="164" class="mono code">01  class SanaTariq extends FullStackDeveloper {</text>
+    <text x="52" y="190" class="mono code">02      public string $backend = "Laravel / Node.js";</text>
+    <text x="52" y="216" class="mono code">03      public string $frontend = "React / Next.js";</text>
+    <text x="52" y="242" class="mono code">04      public array $databases = [</text>
+    <text x="76" y="268" class="mono code">"MySQL", "MongoDB"</text>
+    <text x="52" y="294" class="mono code">05      ];</text>
+    <text x="52" y="320" class="mono code">06      public array $principles = [</text>
+    <text x="76" y="346" class="mono code">"SOLID", "DRY", "KISS", "Clean Code"</text>
+    <text x="52" y="372" class="mono code">07      ];</text>
+    <text x="52" y="398" class="mono code">08  }</text>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -7;0 0" dur="4.5s" repeatCount="indefinite"/>
+  </g>
+
+  <rect x="44" y="130" width="630" height="54" fill="url(#scan)">
+    <animate attributeName="y" values="130;360;130" dur="5.4s" repeatCount="indefinite"/>
+  </rect>
+  <line x1="46" x2="674" y1="145" y2="145" stroke="#FF4FD8" stroke-opacity=".9" filter="url(#glow)">
+    <animate attributeName="y1" values="140;390;140" dur="5.4s" repeatCount="indefinite"/>
+    <animate attributeName="y2" values="140;390;140" dur="5.4s" repeatCount="indefinite"/>
+  </line>
+</g>
+
+<text x="52" y="414" class="mono muted">repository scan</text>
+<rect x="180" y="403" width="455" height="10" rx="5" fill="#211128"/>
+<rect x="180" y="403" width="455" height="10" rx="5" fill="url(#accent)" filter="url(#glow)">
+  <animate attributeName="width" values="0;455;455;0" keyTimes="0;.68;.9;1" dur="5.4s" repeatCount="indefinite"/>
+</rect>
+
+<line x1="710" y1="74" x2="710" y2="424" stroke="#FF4FD8" stroke-opacity=".14"/>
+
+<text x="742" y="100" class="mono label">DEVELOPER IDENTITY</text>
+<text x="742" y="137" class="mono value" font-size="25">SANA TARIQ</text>
+<text x="742" y="164" class="mono muted">Full-Stack Developer</text>
+
+<text x="742" y="208" class="mono label">BACKEND</text>
+<text x="742" y="237" class="mono value">Laravel • PHP • Node.js</text>
+
+<text x="742" y="278" class="mono label">FRONTEND</text>
+<text x="742" y="307" class="mono value">React • Next.js</text>
+
+<text x="742" y="348" class="mono label">DATABASE</text>
+<text x="742" y="377" class="mono value">MySQL • MongoDB</text>
+
+<circle cx="753" cy="423" r="6" fill="#FF4FD8" filter="url(#glow)">
+  <animate attributeName="opacity" values="1;.25;1" dur="1.15s" repeatCount="indefinite"/>
+</circle>
+<text x="770" y="429" class="mono value">ONLINE / BUILDING</text>
+
+<rect x="646" y="89" width="8" height="16" fill="#8B5CF6">
+  <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+</rect>
+
+<text x="32" y="462" class="mono muted">ST // FULL-STACK ENGINEERING INTERFACE</text>
+<text x="1000" y="462" class="mono muted">v2026</text>
+</svg>
