@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./sana-hacker-hero.svg" width="100%" alt="Sana Tariq — Full-Stack Developer" />
+</p>
+
 <div align="center">
 
 # Sana Tariq
@@ -405,6 +409,10 @@ while (developer.isCoding) {
 **Sana Tariq © 2026**
 
 </div>
+<p align="center">
+  <img src="./sana-hacker-hero.svg" width="100%" alt="Sana Tariq — Full-Stack Developer" />
+</p>
+
 <div align="center">
 
 # Sana Tariq
